@@ -4,7 +4,6 @@ zeiger = verbindung.cursor()
 
 zeiger.executescript("""
     DROP TABLE IF EXISTS `ausleihen`;
-sssss
     CREATE TABLE `ausleihen` (
       `ausleihnr` INTEGER PRIMARY KEY AUTOINCREMENT,
       `buchnr` int(6) NOT NULL,
