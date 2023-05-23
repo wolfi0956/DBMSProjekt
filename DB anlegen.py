@@ -16,35 +16,38 @@ zeiger.executescript("""
     insert into `ausleihen` (`ausleihnr`,`buchnr`,`lesernr`,`ausleihedatum`,`rueckgabedatum`) values (2,3,1,'2023-01-12','2023-02-24');
     insert into `ausleihen` (`ausleihnr`,`buchnr`,`lesernr`,`ausleihedatum`,`rueckgabedatum`) values (3,2,5,'2023-02-01','2023-03-01');
 
-    DROP TABLE IF EXISTS `autoren`;
+    DROP TABLE IF EXISTS `personen`;
 
-    CREATE TABLE `autoren` (
-      `autorennr` INTEGER PRIMARY KEY AUTOINCREMENT,
+    CREATE TABLE `personen` (
+      `personr` INTEGER PRIMARY KEY AUTOINCREMENT,
       `name` char(20),
-      `vorname` char(20)
+      `vorname` char(20),
+      'anschrift' char(20), int(6),
+      'kontaktinfo' int(20),
+      'geburtsdatum' date default NULL
     );
 
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (1,'Tollkühn','Dschey Ar');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (2,'Rowling','Joanne Kos');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (3,'Haddon','Mark');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (4,'Roberts','John Maddox');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (5,'von Münchhausen','Marco');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (6,'Montrucchio','Alessandra');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (7,'Boyle','Tom Coreghar');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (8,'Vargas','Fred');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (18,'Moore','Michael');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (19,'Knopf','Jim');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (22,'Kästner','Erich');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (23,'Feist','Raymond');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (24,'Kafka','Franz');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (25,'Flemming','Ian');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (27,'Harris','Thomas');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (28,'Pratchett','Terry');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (29,'Tucholsky','Kurt');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (30,'Jordan','Robert');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (31,'Kuhn','Wilfried');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (32,'Christi','Agatha');
-    insert into `autoren` (`autorennr`,`name`,`vorname`) values (33,'Williams','T.');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (1,'Tollkühn','Dschey Ar');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (2,'Rowling','Joanne Kos');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (3,'Haddon','Mark');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (4,'Roberts','John Maddox');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (5,'von Münchhausen','Marco');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (6,'Montrucchio','Alessandra');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (7,'Boyle','Tom Coreghar');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (8,'Vargas','Fred');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (18,'Moore','Michael');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (19,'Knopf','Jim');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (22,'Kästner','Erich');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (23,'Feist','Raymond');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (24,'Kafka','Franz');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (25,'Flemming','Ian');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (27,'Harris','Thomas');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (28,'Pratchett','Terry');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (29,'Tucholsky','Kurt');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (30,'Jordan','Robert');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (31,'Kuhn','Wilfried');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (32,'Christi','Agatha');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (33,'Williams','T.');
 
 
     DROP TABLE IF EXISTS `buecher`;
