@@ -3,16 +3,18 @@ verbindung = sqlite3.connect("bibliothek.db")
 zeiger = verbindung.cursor()
 
 zeiger.executescript("""
-    DROP TABLE IF EXISTS `ausleihen`;
-    CREATE TABLE `ausleihen` (
-      `ausleihnr` INTEGER PRIMARY KEY AUTOINCREMENT,
-      `buchnr` int(6) NOT NULL,
-      `lesernr` int(6) NOT NULL,
-      `ausleihedatum` date NOT NULL,
-      `rueckgabedatum` date default NULL     
+    DROP TABLE IF EXISTS `fall`;
+    CREATE TABLE `fall` (
+      `fallnr` INTEGER PRIMARY KEY AUTOINCREMENT,
+      `datum` date NOT NULL,
+      `zeit` time NOT NULL, 
+      `gericht` char(50),
+      `sachverhalt` char(300),
+      `rechtsgebiet` char(50),
+      `tatort` char(100)
     ); 
 
-    insert into `ausleihen` (`ausleihnr`,`buchnr`,`lesernr`,`ausleihedatum`,`rueckgabedatum`) values (1,1,2,'2023-02-24','2023-03-24');
+    insert into `fall` (`fallnr`,`datum`,`zeit`,`gericht`,`sachverhalt`,`rechtsgebiet`,`tatort`) values (1,'2023-02-24','11:11:11',`Klaus-Kleber Gericht`,`Klient hat öffentlich uriniert`,`Rechtsgebiet`,`Weißes Haus`);
     insert into `ausleihen` (`ausleihnr`,`buchnr`,`lesernr`,`ausleihedatum`,`rueckgabedatum`) values (2,3,1,'2023-01-12','2023-02-24');
     insert into `ausleihen` (`ausleihnr`,`buchnr`,`lesernr`,`ausleihedatum`,`rueckgabedatum`) values (3,2,5,'2023-02-01','2023-03-01');
 
