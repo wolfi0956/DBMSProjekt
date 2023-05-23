@@ -1,5 +1,5 @@
 import sqlite3
-verbindung = sqlite3.connect("bibliothek.db")
+verbindung = sqlite3.connect("kanzlei.db")
 zeiger = verbindung.cursor()
 
 zeiger.executescript("""
