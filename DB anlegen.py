@@ -52,34 +52,34 @@ zeiger.executescript("""
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (33,'Williams','T.');
 
 
-    DROP TABLE IF EXISTS `buecher`;
+    DROP TABLE IF EXISTS `dokumente`;
 
-    CREATE TABLE `buecher` (
+    CREATE TABLE `dokumente` (
       `dokumentnr` INTEGER PRIMARY KEY AUTOINCREMENT,
-      `titel` char(60) NOT NULL,
-      `autorennr` int(6) NOT NULL,
-      `kategorie` char(5) default NULL
+      `fall` char(60) NOT NULL,
+      `personr` int(6) NOT NULL,
+      `kategorie` char(2000)
     );
 
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (1,'Der Herr der Augenringe',1,'humor');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (2,'Harry Potter und der Orden des Phönix',2,'fan');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (3,'Supergute Tage oder Die sonderbare Welt des Christopher Boon',3,'humor');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (4,'SPQR Ein Krimi aus dem alten Rom',4,'krimi');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (5,'So zähmen Sie Ihren inneren Schweinehund',5,'humor');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (6,'Harry Potter und der Stein der Weisen',2,'fan');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (7,'Harry Potter und der Stein der Weisen',2,'fan');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (8,'Harry Potter und der Stein der Weisen',2,'fan');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (9,'Fisch sucht Fahrrad',6,'liebe');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (10,'Grün ist die Hoffnung',7,'humor');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (11,'Der untröstliche Witwer von Montparnasse',8,'krimi');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (12,'Das doppelte Lottchen',22,'kind');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (19,'Das Schweigen der Lämmer',9,'krimi');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (22,'Tiger,Panther&Co',29,'humor');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (23,'Das Rad Der Zeit',30,'fan');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (24,'Handbuch der experimentellen Physik',31,'humor');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (25,'Helle Barden',28,'humor');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (27,'Mord im Orient Express',32,'krimi');
-    insert into `buecher` (`dokumentnr`,`titel`,`autorennr`,`kategorie`) values (28,'Otherland River of blue fire',33,'fan');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (1,'Der Herr der Augenringe',1,'humor');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (2,'Harry Potter und der Orden des Phönix',2,'fan');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (3,'Supergute Tage oder Die sonderbare Welt des Christopher Boon',3,'humor');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (4,'SPQR Ein Krimi aus dem alten Rom',4,'krimi');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (5,'So zähmen Sie Ihren inneren Schweinehund',5,'humor');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (6,'Harry Potter und der Stein der Weisen',2,'fan');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (7,'Harry Potter und der Stein der Weisen',2,'fan');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (8,'Harry Potter und der Stein der Weisen',2,'fan');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (9,'Fisch sucht Fahrrad',6,'liebe');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (10,'Grün ist die Hoffnung',7,'humor');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (11,'Der untröstliche Witwer von Montparnasse',8,'krimi');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (12,'Das doppelte Lottchen',22,'kind');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (19,'Das Schweigen der Lämmer',9,'krimi');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (22,'Tiger,Panther&Co',29,'humor');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (23,'Das Rad Der Zeit',30,'fan');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (24,'Handbuch der experimentellen Physik',31,'humor');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (25,'Helle Barden',28,'humor');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (27,'Mord im Orient Express',32,'krimi');
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (28,'Otherland River of blue fire',33,'fan');
 
     DROP TABLE IF EXISTS `leser`;
 
