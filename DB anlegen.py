@@ -23,12 +23,12 @@ zeiger.executescript("""
       `personr` INTEGER PRIMARY KEY AUTOINCREMENT,
       `name` char(20),
       `vorname` char(20),
-      'anschrift' char(20), int(6),
+      'anschrift' char(40), int(6),
       'kontaktinfo' int(20),
       'geburtsdatum' date default NULL
     );
 
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (1,'Tollkühn','Dschey Ar');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (1,'Baecker','Philip,'Knesebeckstrasse 83','49 02684 98 72 81','1999-03-30');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (2,'Rowling','Joanne Kos');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (3,'Haddon','Mark');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (4,'Roberts','John Maddox');
