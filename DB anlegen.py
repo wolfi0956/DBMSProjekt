@@ -80,32 +80,6 @@ zeiger.executescript("""
     insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (27,'Mord im Orient Express',32,'krimi');
     insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (28,'Otherland River of blue fire',33,'fan');
 
-    DROP TABLE IF EXISTS `leser`;
-
-    CREATE TABLE `leser` (
-      `lesernr` INTEGER PRIMARY KEY AUTOINCREMENT,
-      `name` char(20) default NULL,
-      `vorname` char(20) default NULL,
-      `gebdatum` date default NULL,
-      `geschlecht` char(1) NOT NULL,
-      `strasse` char(30) default NULL,
-      `plz` int(5) default NULL,
-      `ort` char(20) default NULL
-    );
-
-    insert into `leser` (`lesernr`,`name`,`vorname`,`gebdatum`,`geschlecht`,`strasse`,`plz`,`ort`) values (1,'Mustermann','Max','1965-04-01','m','Musterstr. 1',11111,'Musterdorf');
-    insert into `leser` (`lesernr`,`name`,`vorname`,`gebdatum`,`geschlecht`,`strasse`,`plz`,`ort`) values (2,'Taler','Tim','1973-06-03','m','Kannengasse 6',15242,'Nudelsbach');
-    insert into `leser` (`lesernr`,`name`,`vorname`,`gebdatum`,`geschlecht`,`strasse`,`plz`,`ort`) values (3,'Socke','Erna','1972-03-03','w','Strumpfgasse 7',13329,'Seidenstadt');
-    insert into `leser` (`lesernr`,`name`,`vorname`,`gebdatum`,`geschlecht`,`strasse`,`plz`,`ort`) values (4,'Esel','Wilhelm','1928-01-17','m','Kaiserdamm 242',10986,'Residenzstadt');
-    insert into `leser` (`lesernr`,`name`,`vorname`,`gebdatum`,`geschlecht`,`strasse`,`plz`,`ort`) values (5,'Pause','Lila','1992-12-24','w','Alpenweg 3',1232,'Bergstadt');
-    insert into `leser` (`lesernr`,`name`,`vorname`,`gebdatum`,`geschlecht`,`strasse`,`plz`,`ort`) values (6,'Lupus','Georg','1963-04-18','m','Lammstrasse 36',64738,'Liebenburg');
-    insert into `leser` (`lesernr`,`name`,`vorname`,`gebdatum`,`geschlecht`,`strasse`,`plz`,`ort`) values (7,'Radieschen','Ruth','1948-11-23','w','Trampelpfad 7',23443,'Gartenstadt');
-    insert into `leser` (`lesernr`,`name`,`vorname`,`gebdatum`,`geschlecht`,`strasse`,`plz`,`ort`) values (8,'Tell','Wilhelm','1951-07-05','m','Apfelweg 23',62632,'Bogendorf');
-    insert into `leser` (`lesernr`,`name`,`vorname`,`gebdatum`,`geschlecht`,`strasse`,`plz`,`ort`) values (9,'Ritter','Rudolph','1981-01-08','m','Kokosstraße 43',87172,'Burg');
-    insert into `leser` (`lesernr`,`name`,`vorname`,`gebdatum`,`geschlecht`,`strasse`,`plz`,`ort`) values (10,'Hemd','Rosa','1991-04-05','w','Lotusweg 8',23443,'Gartenstadt');
-    insert into `leser` (`lesernr`,`name`,`vorname`,`gebdatum`,`geschlecht`,`strasse`,`plz`,`ort`) values (11,'Müller','Tinchen','1988-07-07','w','Cautiusstr. 15',14444,'Berlin');
-    insert into `leser` (`lesernr`,`name`,`vorname`,`gebdatum`,`geschlecht`,`strasse`,`plz`,`ort`) values (12,'Miller','Swetlana','1984-05-01','w','Tegler Weg',16598,'Berlin');
-    insert into `leser` (`lesernr`,`name`,`vorname`,`gebdatum`,`geschlecht`,`strasse`,`plz`,`ort`) values (13,'Brosnan','Pierce','1957-04-30','m','Peterstr.5',12159,'Berlin');
-    """)
+  
 verbindung.commit()
 verbindung.close()
