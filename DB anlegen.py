@@ -40,12 +40,12 @@ zeiger.executescript("""
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (19,'Gottlieb','Anja','Reeperbahn 34','49 037606 60 98','1978-05-19');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (22,'Kunze','Nadine','Friedrichstrasse 26','49 0211 61 63 49','1959-10-16');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (23,'Eiffel','Sabrina','Lietzenburger Strasse 8','49 0226146 29 39','1994-06-21');
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (24,'Kafka','Franz');
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (25,'Flemming','Ian');
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (27,'Harris','Thomas');
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (28,'Pratchett','Terry');
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (29,'Tucholsky','Kurt');
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (30,'Jordan','Robert');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (24,'Mauer','Andrea','Invalidenstraße 19','49 06337 85 81 49','1940-02-27');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (25,'Nacht','Anna','Luckenwalder Straße 37','49 04975 53 77 73','1937-07-17');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (27,'Traugott','Jonas','Bleibtreustrasse 12','49 05254 83 91 49');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (28,'Ackermann','Kerstin','Rheinstraße 73','49 089 13 20 06','1984-03-31');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (29,'Frankfurter','Paul','Ansbacher Straße 5','49 06543 21 62 89','1993-02-21');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (30,'Egger','Matthias','Kurfürstendamm 73','49 0383 92 72 50','1992-10-18');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (31,'Kuhn','Wilfried');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (32,'Christi','Agatha');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (33,'Williams','T.');
