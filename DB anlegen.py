@@ -28,7 +28,7 @@ zeiger.executescript("""
       'geburtsdatum' date default NULL
     );
 
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (1,'Baecker','Philip,'Knesebeckstrasse 83','49 02684 98 72 81','1999-03-30');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (1,'Baecker','Philip','Knesebeckstrasse 83','49 02684 98 72 81','1999-03-30');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (2,'Wagner','Marko','Fontenay 26','49 09241 35 12 26','1969-04-25');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (3,'Loewe','Sophia','Charlottenstrasse 58','49 0351 12 68 86','2001-10-17');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (4,'Gaertner','Angelika','Schoenebergerstrasse 81','49 03761 36 90 57','1937-09-17');
