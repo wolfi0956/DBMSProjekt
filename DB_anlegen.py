@@ -47,8 +47,10 @@ zeiger.executescript("""
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (29,'Frankfurter','Paul','Ansbacher Straße 5','49 06543 21 62 89','1993-02-21');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (30,'Egger','Matthias','Kurfürstendamm 73','49 0383 92 72 50','1992-10-18');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (31,'Kuhn','Philipp','Billwerder Neuer Deich 10','49 09941 87 16 67','2001-10-03');
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (32,'','Agatha');
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (33,'Williams','T.');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (32,'Schmid','Thorsten','Bleibtreustraße 92','49 07832 16 43 27','1968-06-06');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (33,'Schweizer','Anna','Eschenweg 38','49 03641 38 08 25','1957-08-08');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (34,'Fisher','Kerstin','Anhalter Straße 87','49b 06362 95 85 11','1946-04-12');
+    
 
 
     DROP TABLE IF EXISTS `dokumente`;
