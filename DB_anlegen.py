@@ -14,9 +14,10 @@ zeiger.executescript("""
       `tatort` char(100)
     ); 
 
-    insert into `fall` (`fallnr`,`datum`,`zeit`,`gericht`,`sachverhalt`,`rechtsgebiet`,`tatort`) values (1,'2023-02-24','11:11:11',`Klaus-Kleber Gericht`,`Klient hat öffentlich uriniert`,`Rechtsgebiet`,`Weißes Haus`);
-    insert into `fall` (`fallnr`,`datum`,`zeit`,`gericht`,`sachverhalt`,`rechtsgebiet`,`tatort`) values (2,'2001-09-11','11:11:11',`Essens-Gericht`,`Entwendung eines Käsebrötchens`,`Diebstahl`,`Zwei Türme`);
-
+    insert into `fall` (`fallnr`,`datum`,`zeit`,`gericht`,`sachverhalt`,`rechtsgebiet`,`tatort`) values (1,'2023-02-24','11:11:11',`Klaus-Kleber Gericht`,`Klient hat öffentlich uriniert`,`StgB`,`Weißes Haus`);
+    insert into `fall` (`fallnr`,`datum`,`zeit`,`gericht`,`sachverhalt`,`rechtsgebiet`,`tatort`) values (2,'2001-09-11','11:11:11',`Essens-Gericht`,`Entwendung eines Käsebrötchens`,`StgB`,`Zwei Türme`);
+    insert into `fall` (`fallnr`,`datum`,`zeit`,`gericht`,`sachverhalt`,`rechtsgebiet`,`tatort`) values (3,'2006-06-06','11:11:11',`Bundesverfassungsgericht`,`änderung des Grundgesetzes`,`BGB`,`Gibt keinen-Verfassungsklage`);
+    insert into `fall` (`fallnr`,`datum`,`zeit`,`gericht`,`sachverhalt`,`rechtsgebiet`,`tatort`) values (4,'2024-12-24','11:11:11',`
     DROP TABLE IF EXISTS `personen`;
 
     CREATE TABLE `personen` (
