@@ -46,8 +46,8 @@ zeiger.executescript("""
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (28,'Ackermann','Kerstin','Rheinstraße 73','49 089 13 20 06','1984-03-31');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (29,'Frankfurter','Paul','Ansbacher Straße 5','49 06543 21 62 89','1993-02-21');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (30,'Egger','Matthias','Kurfürstendamm 73','49 0383 92 72 50','1992-10-18');
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (31,'Kuhn','Wilfried');
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (32,'Christi','Agatha');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (31,'Kuhn','Philipp','Billwerder Neuer Deich 10','49 09941 87 16 67','2001-10-03');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (32,'','Agatha');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (33,'Williams','T.');
 
 
