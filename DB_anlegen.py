@@ -63,26 +63,10 @@ zeiger.executescript("""
       `kategorie` char(60)
     );
 
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values ();
-
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (1,"a","xy","xy");
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (2,"b","xy","xy");
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (3,"c","xy","xy");
+    insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (4,"d","xy","xy");
   
 verbindung.commit()
 verbindung.close()
