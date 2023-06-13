@@ -31,8 +31,8 @@ zeiger.executescript("""
 
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (1,'Baecker','Philip','Knesebeckstrasse 83','49 02684 98 72 81','1999-03-30');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (2,'Wagner','Marko','Fontenay 26','49 09241 35 12 26','1969-04-25');
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (3,'Loewe','Sophia','Charlottenstrasse 58','49 0351 12 68 86','2001-10-17');
-    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (4,'Gaertner','Angelika','Schoenebergerstrasse 81','49 03761 36 90 57','1937-09-17');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (3,'Dudruff','Iwan G.','Charlottenstrasse 58','49 0351 12 68 86','2001-10-17');
+    insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (4,'Machslochoff','Ivanka','Schoenebergerstrasse 81','49 03761 36 90 57','1937-09-17');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (5,'Lehrer','Philipp','Mollstrasse 26','49 06145 14 17 41','2004-01-04');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (6,'Schwab','Stephanie','Heinrich Heine Platz 13','49 03583 81 60 22','1978-07-07');
     insert into `personen` (`personr`,`name`,`vorname`,'anschrift','kontaktinfo','geburtsdatum') values (7,'Goldschmitt','Lisa','Boxhagener Str. 84','49 040 12 51 46','1973-02-02');
