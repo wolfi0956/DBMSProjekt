@@ -58,9 +58,9 @@ zeiger.executescript("""
 
     CREATE TABLE `dokumente` (
       `dokumentnr` INTEGER PRIMARY KEY AUTOINCREMENT,
-      `fall` char(60) NOT NULL,
+      `fall` char(2000) NOT NULL,
       `personr` int(6) NOT NULL,
-      `kategorie` char(2000)
+      `kategorie` char(60)
     );
 
     insert into `dokumente` (`dokumentnr`,`fall`,`personr`,`kategorie`) values (1,'Der Herr der Augenringe',1,'humor');
